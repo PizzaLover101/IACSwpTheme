@@ -1,0 +1,37 @@
+/* =WordPress Core
+Theme Name: IACS Newspaper Theme
+Theme Description: Made by the innovation academy student newspaper
+-------------------------------------------------------------- */
+
+   td {vertical-align: top}
+      body {min-width: 800px; margin-left: 5%; margin-right: 5%; width: 90%;}
+      #Header {border-bottom: 1px solid #ddd}
+      #Title {font-family: Garamond; font-weight: bold; font-size: 32pt; color: #000;  padding: 10px; text-align: center}
+      #Menu {text-align: right; padding-right: 1em;}
+      #Menu a {color: #555; font-size: 10pt;  text-decoration: none; padding-left: 1em;}
+      .Articles {   margin-top: 2em;}
+      #Article1,#Article2 {padding-left: 1em; padding-right: 1em; margin-right: 2%; border-right: 1px solid #ddd; width: 20%;}
+      #Article3 {padding-left: 1em; padding-right: 1em; width: 20%}
+      .article_column {font-family: Garamond}
+      .article_column div {font-family: Garamond; font-weight: light; font-size: 9pt}
+      .article_column h2 {font-size: 14pt; color: #555; font-family: verdana; color: #777}
+      .article_column h3 {font-size: 11pt; color: #555; font-family: Garamond; color: #777; margin-top: 2em; margin-bottom: 0.5em;}      
+      .article_column a {text-decoration: none; color: #777}
+
+      #above_the_fold {padding-top: 1em;}
+      #Pics {margin-top: 1em;}
+      #Featured { margin-left: 2em; padding-left: 2em;}
+      #Featured h2 {font-size: 18pt; color: #555; font-family: verdana}
+      #Featured p {text-align: justify; font-size: 14pt;}
+      #Footer {padding-top: 1em;}
+
+      .article {max-width: 500px; margin-left: auto; margin-right: auto}
+      .related {width: 200px; float: right; margin-left: 1em; padding-left: 2em; margin-top: 5em;}
+      .related a {text-decoration: none; color: #555; margin-bottom: 1em}
+      .related h2 {font-family: verdana; font-size: 14px; color: #555}
+      .related li {list-style-type: none; margin-left: 0px; padding-left: 0px; margin-bottom: 1em;}
+      .related ul {margin-left: 0px; padding-left: 0px;}
+      .byline {font-style: italic; font-family: Verdana; font-size 9pt; font-color: #555; text-align: right;}
+      .article_content p {text-align: justify; font-size: 10pt; font-family: Garamond;}
+      .article_content p:first-child:first-letter {font-size: 32pt; float: left; display: block; padding-right: 0.25em; font-weight: bold;}
+      .article_content p:first-child:first-line {font-family: Garamond; font-variant: small-caps; font-size: 14pt;}
