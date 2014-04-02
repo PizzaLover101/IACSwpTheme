@@ -7,13 +7,13 @@
  <body>
 <div id="Total">
         <div id="Header"><?php get_header(); ?></div>
-	<table id="above_the_fold">
-	  <tr>
-            <td id="Pics"> </td>
-	    <td id="Featured">
 	        <?php query_posts('category_name="fp"&posts_per_page=1'); ?>
-	    <?php while (have_posts()) : the_post();
-		  ?>		
+	    <?php while (have_posts()) : the_post(); ?>
+
+    <table id="above_the_fold">
+	  <tr>
+            <td id="Pics" width="45%"> <?php get_the_post_thumbnail();?></td>
+	    <td id="Featured">	
 	    	<h2><a href="<?php the_permalink()?>" style="text-decoration:none; color: #555; font-family: verdana;"><?php the_title(); ?></a></h2>
                 <div class="byline">By <?php the_author()?></div>
 		<div class="article_content"><?php the_content("Read More")?>
